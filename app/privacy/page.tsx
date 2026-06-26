@@ -246,15 +246,6 @@ export default function PrivacyPage() {
                 </section>
               ))}
             </div>
-
-            <div className="mt-12 rounded-2xl border border-vermillion/30 bg-vermillion/10 p-5 text-sm leading-7 text-softGray">
-              <p>
-                This Privacy Policy is intended for Toriino early launch use. Toriino should have
-                legal counsel review this policy before a full public app launch, paid marketplace
-                launch, minors-focused launch, employer product launch, or large-scale AI knowledge
-                product launch.
-              </p>
-            </div>
           </div>
         </div>
       </section>
