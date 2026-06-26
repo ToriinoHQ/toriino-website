@@ -39,7 +39,7 @@ fields: Field[];
 const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
 const formName = useMemo(() => {
-return `toriino-${role.toLowerCase()}-signup`;
+return 'toriino-' + role.toLowerCase() + '-signup';
 }, [role]);
 
 const successMessage = useMemo(() => {
@@ -68,7 +68,7 @@ formData.forEach((value, key) => {
 });
 
 try {
-  const response = await fetch('/__forms.html', {
+  const response = await fetch('/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: encode({
@@ -98,6 +98,7 @@ return (
   <form
     name={formName}
     method="POST"
+    action="/"
     onSubmit={handleSubmit}
     className="mt-8 grid gap-5"
   >
