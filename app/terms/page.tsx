@@ -255,10 +255,10 @@ const termsSections = [
   {
     title: "29. Contact",
     body: [
-      "Questions about these Terms can be sent to [support@toriino.com](mailto:support@toriino.com).",
+      "Questions about these Terms can be sent to support@toriino.com.",
       "Toriino LLC",
       "Website: https://toriino.com",
-      "Email: [support@toriino.com](mailto:support@toriino.com)",
+      "Email: support@toriino.com",
     ],
   },
 ];
