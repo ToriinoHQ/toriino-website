@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head></head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Toriino Forms</title>
+  </head>
   <body>
-    <form name="toriino-student-signup" method="POST" data-netlify="true" hidden>
+    <form name="toriino-student-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="toriino-student-signup" />
-      <input name="role" />
+      <input type="hidden" name="role" />
+      <input name="bot-field" />
+
       <input name="fullName" />
       <input name="email" />
-      <input name="learningInterest" />
-      <input name="learningType" />
-      <input name="level" />
-      <input name="goals" />
-      <input name="earlyAccess" />
-      <input name="notes" />
+      <textarea name="learningInterest"></textarea>
+      <select name="learningType"></select>
+      <select name="level"></select>
+      <textarea name="goals"></textarea>
+      <select name="earlyAccess"></select>
+      <textarea name="notes"></textarea>
     </form>
 
-    <form name="toriino-teacher-signup" method="POST" data-netlify="true" hidden>
+    <form name="toriino-teacher-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="toriino-teacher-signup" />
-      <input name="role" />
+      <input type="hidden" name="role" />
+      <input name="bot-field" />
+
       <input name="fullName" />
       <input name="email" />
-      <input name="subject" />
-      <input name="teachingType" />
-      <input name="audience" />
-      <input name="experience" />
-      <input name="charging" />
-      <input name="firstOffer" />
-      <input name="earlyAccess" />
-      <input name="notes" />
+      <textarea name="subject"></textarea>
+      <select name="teachingType"></select>
+      <select name="audience"></select>
+      <textarea name="experience"></textarea>
+      <select name="charging"></select>
+      <textarea name="firstOffer"></textarea>
+      <select name="earlyAccess"></select>
+      <textarea name="notes"></textarea>
     </form>
 
-    <form name="toriino-mentor-signup" method="POST" data-netlify="true" hidden>
+    <form name="toriino-mentor-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="toriino-mentor-signup" />
-      <input name="role" />
+      <input type="hidden" name="role" />
+      <input name="bot-field" />
+
       <input name="fullName" />
       <input name="email" />
-      <input name="topics" />
-      <input name="mentorshipType" />
-      <input name="audience" />
-      <input name="experience" />
-      <input name="pricing" />
-      <input name="value" />
-      <input name="earlyAccess" />
-      <input name="notes" />
+      <textarea name="topics"></textarea>
+      <select name="mentorshipType"></select>
+      <textarea name="audience"></textarea>
+      <textarea name="experience"></textarea>
+      <select name="pricing"></select>
+      <textarea name="value"></textarea>
+      <select name="earlyAccess"></select>
+      <textarea name="notes"></textarea>
     </form>
   </body>
 </html>
